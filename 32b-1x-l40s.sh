@@ -147,7 +147,7 @@ if [ ! -x "$HF_CMD" ]; then
     exit 1
 fi
 
-$HF_CMD download Qwen/Qwen3-32B-FP8
+$HF_CMD download Qwen/Qwen2.5-7B-Instruct
 
 # 7. Pull Containers
 echo -e "${YELLOW}[7/11] Pulling Docker Images...${NC}"
