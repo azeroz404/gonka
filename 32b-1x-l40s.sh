@@ -22,7 +22,7 @@ export PATH="$HOME/.local/bin:$PATH"
 echo -e "${YELLOW}[2/11] Downloading Wallet Binary & Setup HOT Wallet...${NC}"
 
 if [ ! -f "./inferenced" ]; then
-  wget -q -O inferenced-linux-amd64.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.6-post1/inferenced-linux-amd64.zip"
+  wget -q -O inferenced-linux-amd64.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.8-post1/inferenced-linux-amd64.zip"
   unzip -o inferenced-linux-amd64.zip && chmod +x inferenced
 fi
 
