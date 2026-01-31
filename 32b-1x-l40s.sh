@@ -125,8 +125,6 @@ cat <<'EOF' > node-config.json
                     "--tensor-parallel-size", "1",
                     "--quantization", "fp8",
                     "--gpu-memory-utilization", "0.9"
-                    "--max-model-len", "8192",
-                    "--swap-space", "8"
                 ]
             }
         }
